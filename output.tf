@@ -1,13 +1,5 @@
-output "bucket_items" {
-  value = module.s3_portfolio.bucket_items
-}
-
 output "bucket_name" {
   value = module.s3_portfolio.bucket_name
-}
-
-output "bucket_region" {
-  value = module.s3_portfolio.bucket_region
 }
 
 output "bucket_arn" {
